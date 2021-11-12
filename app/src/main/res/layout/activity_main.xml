@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#BF3325"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/nameEd"
+        android:layout_width="112dp"
+        android:layout_height="69dp"
+        android:hint="Suraj"
+        android:textAllCaps="true"
+        android:textColor="#E8BD0D"
+        android:textFontWeight="400"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.259" />
+
+    <RadioGroup
+        android:id="@+id/radioBtn"
+        android:layout_width="197dp"
+        android:layout_height="113dp"
+        android:textColor="#E8BD0D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/RadioMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="male"
+            android:textColor="#E8BD0D" />
+
+        <RadioButton
+            android:id="@+id/RadioFemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="female"
+            android:textColor="#E8BD0D" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/chk2"
+        android:layout_width="263dp"
+        android:layout_height="48dp"
+        android:text="abc"
+        android:textColor="#E8BD0D"
+
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.717" />
+
+    <CheckBox
+        android:id="@+id/chk1"
+        android:layout_width="263dp"
+        android:layout_height="48dp"
+        android:text="def"
+        android:textColor="#E8BD0D"
+
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.809" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E8BD0D"
+        android:text="Button"
+        android:textColor="#7B1FA2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.942" />
+</androidx.constraintlayout.widget.ConstraintLayout>
